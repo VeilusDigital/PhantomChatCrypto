@@ -1,0 +1,28 @@
+PhantomChatCrypto — Source-Available License (Review Only)
+Copyright (c) 2026 Veilus Digital (Curtis John Tunaley). All rights reserved.
+
+This source code is made available for the SOLE PURPOSE of independent review,
+inspection, security analysis, and verification of the claims made about Phantom
+Chat. Permission is granted to any person to:
+
+  (a) view and read the source code;
+  (b) compile and run it, including its test suite, for the purpose of
+      evaluating, auditing, or verifying its correctness and behaviour.
+
+The following are NOT permitted without prior written permission from Veilus
+Digital:
+
+  (1) using this code, in whole or in part, in any other software, product, or
+      service;
+  (2) redistributing, sublicensing, selling, or publishing this code or
+      derivative works;
+  (3) removing or altering this notice.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Contact: support@veilusdigital.co
