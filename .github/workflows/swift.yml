@@ -16,8 +16,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
  
-      - name: Select latest Xcode (for Swift 6.2+)
-        run: sudo xcode-select -s /Applications/Xcode_26.app/Contents/Developer
+      - name: List available Xcode versions
+        run: ls /Applications | grep -i xcode
+ 
+      - name: Select newest installed Xcode
+        run: |
+          NEWEST=$(ls -d /Applications/Xcode*.app | sort -V | tail -n 1)
+          echo "Selecting: $NEWEST"
+          sudo xcode-select -s "$NEWEST/Contents/Developer"
  
       - name: Show Swift version
         run: swift --version
