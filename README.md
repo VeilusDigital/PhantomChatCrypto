@@ -1,4 +1,5 @@
 # PhantomChatCrypto
+[![Swift Tests](https://github.com/VeilusDigital/PhantomChatCrypto/actions/workflows/swift.yml/badge.svg)](https://github.com/VeilusDigital/PhantomChatCrypto/actions/workflows/swift.yml)
 
 The cryptographic core of **Phantom Chat** (Veilus Digital), extracted verbatim
 from the iOS app so it can be **read, compiled, and run** by anyone — reviewers,
