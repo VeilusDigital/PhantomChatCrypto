@@ -1,25 +1,30 @@
-name: Swift Tests
 
+name: Swift Tests
+ 
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
   workflow_dispatch:
-
+ 
 jobs:
   test:
     name: Build & Test (macOS)
-    runs-on: macos-15
+    runs-on: macos-26
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v5
+ 
+      - name: Select latest Xcode (for Swift 6.2+)
+        run: sudo xcode-select -s /Applications/Xcode_26.app/Contents/Developer
+ 
       - name: Show Swift version
         run: swift --version
-
+ 
       - name: Build
         run: swift build -v
-
+ 
       - name: Run tests
         run: swift test -v
+ 
